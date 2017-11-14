@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+}
+
+.container{
+	width: 100%;
+	/*clear: both;*/
+}
+
+.container.header{
+	background: #f7fdfe;
+	height: 40px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row{
+	width: 950px;
+	margin: 0 auto;
+}
+
+/*.row:after{
+	clear: both;
+}*/
+
+.logo{
+	float: left;
+	padding: 10px 0;
+	text-transform: uppercase;
+	color: #82868f;
+	font-size: 20px;
+}
+
+.menu{
+	float: right;
+}
+
+.menu ul{
+	list-style-type: none;
+	margin: 0;
+    padding-top: 0;
+}
+
+/*.menu ul::after{
+	content: "";
+	clear: left;
+}*/
+
+.menu ul li{
+	float: left;
+	margin: 0px 5px;
+	text-transform: uppercase;
+}
+
+.menu ul li a{
+	display: block;
+	padding: 10px 0px;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    color: #82868f;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+	background: #0ebfdd;
+	border-radius: 30px;
+    color: #fff;
+}
+
+.container.mission{
+	background-image: url('../img/mission.png');
+	text-align: center;
+	background-size: cover;
+	height: 600px;
+}
+
+.clearfix:after{
+	display: table;
+	content: "";
+	clear: both;
+}
