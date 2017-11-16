@@ -1,4 +1,4 @@
-body{
+body, h2, h3, p{
 	margin: 0;
 }
 
@@ -80,3 +80,47 @@ body{
 	content: "";
 	clear: both;
 }
+
+.mission .title{
+    padding-top: 350px;
+    color: white;
+}
+
+.mission .title h2{
+	font-size: 44px;
+	margin-bottom: 40px;
+}
+
+.mission .title h2 i{
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+.mission .title h2 i:first-child{
+	margin-right: 15px;
+}
+
+.mission .title h2 i:last-child{
+	margin-left: 15px;
+}
+
+.mission .title p{
+	font-size: 20px;
+}
+
+.about{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.about-wrapper h2{
+	font-size: 44px;
+	margin-bottom: 40px;
+	color: #0ebfdd;
+}
+
+.about-wrapper p{
+	font-size: 20px;
+}
+
