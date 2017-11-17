@@ -124,3 +124,234 @@ body, h2, h3, p{
 	font-size: 20px;
 }
 
+.team{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #0ebfdd;
+}
+
+.team .team-header{
+	color: white;
+	text-align: center;
+}
+
+.team .team-header h2{
+	font-size: 44px;
+}
+
+.team-single-photo-block{
+	display: inline-block;
+	margin: 0px 40px;
+}
+
+.team-photos{
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 100px;
+	color: white;
+}
+
+.team-name{
+	font-size: 20px;
+}
+
+.team-work{
+	font-size: 16px;
+}
+
+.team-button{
+	text-align: center;
+}
+
+.team-button button{
+	font-size: 16px;
+    text-transform: uppercase;
+    outline: none;
+    background: #0ebfdd;
+    border: 1px solid white;
+    color: white;
+    border-radius: 25px;
+    padding: 12px 50px;
+    cursor: pointer;
+}
+
+.team-button button:hover,
+.team-button button:focus{
+	background: #0EBFBE;
+}
+
+.map{
+	background: #f7f7f7;
+	height: 400px;
+}
+
+.footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #45494d;
+}
+
+.menu-social ul,
+.footer-terms ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-social ul li{
+	display: inline-block;
+}
+
+.menu-social ul li a,
+.footer-terms ul li a
+{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+.menu-social:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.footer-menu ul{
+	text-transform: uppercase;
+	float: left;
+}
+
+.footer-menu ul li{
+	padding: 5px;
+	margin-right: 10px;
+}
+
+.footer-social ul{
+	float: right;
+}
+
+.social-item{
+	width: 30px;
+	height: 30px;
+	border: 1px solid white;
+	border-radius: 15px;
+	margin: 0 4px;
+	cursor: pointer;
+}
+
+.mail span{
+	width: 15px;
+	height: 11px;
+	background-image: url('../img/mail.png');
+	display: block;
+    margin: 9px auto;
+}
+
+.mail:hover,
+.fb:hover,
+.tw:hover
+{
+	-webkit-animation-name: rotation;
+	-webkit-animation-duration: 0.8s;
+	-webkit-animation-iteration-count: 2;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: rotation;
+	-moz-animation-duration: 0.8s;
+	-moz-animation-iteration-count: 2;
+	-moz-animation-timing-function: linear;
+	-o-animation-name: rotation;
+	-o-animation-duration: 0.8s;
+	-o-animation-iteration-count: 2;
+	-o-animation-timing-function: linear;
+	animation-name: rotation;
+	animation-duration: 0.8s;
+	animation-iteration-count: 2;
+	animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotation {
+	0% {-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	transform:rotate(0deg);}
+	100% {-webkit-transform:rotateY(180deg);
+	-moz-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+	transform:rotateY(180deg);}
+}
+
+@-moz-keyframes rotation {
+	0% {-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	transform:rotate(0deg);}
+	100% {-webkit-transform:rotateY(360deg);
+	-moz-transform:rotateY(360deg);
+	-o-transform:rotateY(360deg);
+	transform:rotateY(360deg);}
+}
+
+@-o-keyframes rotation {
+	0% {-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	transform:rotate(0deg);}
+	100% {-webkit-transform:rotateY(360deg);
+	-moz-transform:rotateY(360deg);
+	-o-transform:rotateY(360deg);
+	transform:rotateY(360deg);}
+}
+
+@keyframes rotation {
+	0% {-webkit-transform:rotate(0deg);
+	-moz-transform:rotate(0deg);
+	-o-transform:rotate(0deg);
+	transform:rotate(0deg);}
+	100% {-webkit-transform:rotateY(360deg);
+	-moz-transform:rotateY(720deg);
+	-o-transform:rotateY(360deg);
+	transform:rotateY(360deg);}
+}
+
+.fb span{
+	width: 7px;
+	height: 15px;
+	background-image: url('../img/fb.png');
+	display: block;
+    margin: 9px auto;
+}
+
+.tw span{
+	width: 18px;
+    height: 14px;
+	background-image: url('../img/tw.png');
+	display: block;
+    margin: 9px auto;
+}
+
+.footer-terms{
+	margin-top: 15px;
+	border-top: 1px solid #5a5e62;
+	text-align: right;
+}
+
+.footer-terms ul{
+	padding-top: 15px;
+}
+
+.footer-terms ul li{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.footer-terms ul li a{
+	color: #5a5e62;
+}
+
+.footer-terms ul li:first-child{
+	border-right: 1px solid #5a5e62;
+}
+
+.footer-terms ul li:last-child{
+	border-left: 1px solid #5a5e62;
+}
