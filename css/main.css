@@ -32,7 +32,12 @@ body, h2, h3, p{
 	font-family: "MuseoSans";
 }
 
+.logo span{
+	display: none;
+}
+
 .menu{
+	display: block;
 	float: right;
 }
 
@@ -369,6 +374,155 @@ body, h2, h3, p{
 
 .footer-terms ul li:last-child{
 	border-left: 1px solid #5a5e62;
+}
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.row{
+		width: 726px;
+		margin: 0 auto;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.row{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.container.header{
+		height: auto;
+	}
+
+	.logo{
+		float: none;
+		margin-left: 20px;
+	}
+
+	.logo span{
+		display: block;
+		float: right;
+		margin-right: 20px;
+		cursor: pointer;
+	}
+
+	.menu{
+		float: none;
+		border-top: 1px solid #c3c4c5;
+		display: none;
+		padding-top: 20px;
+	}
+
+	.menu ul{
+		padding: 0px;
+		text-align: center;
+	}
+
+	.menu ul li{
+		float: none;
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	.menu ul li a{
+		width: 100%;
+	}
+
+	.menu ul li a:hover{
+		background: unset;
+		border-radius: 0px;
+		color: #82868f;
+	}
+
+	.menu ul li a:focus,
+	.menu ul li a:active{
+		background: #0ebfdd;
+		color: white;
+	}
+
+	.footer-menu ul {
+		text-align: center;
+		margin-bottom: 15px;
+	    float: none;
+	}
+
+	.footer-social ul {
+		text-align: center;
+	    float: none;
+	}
+
+	.container.mission {
+	    height: 300px;
+	}
+
+	.team-photos{
+		margin-bottom: 50px;
+	}
+
+	.mission .title,
+	.about .about-wrapper,
+	.footer .footer-wrapper{
+		padding: 0px 15px;
+	}
+
+	.mission .title {
+	    padding-top: 50px;
+	}
+	
+	.footer-terms ul li:first-child,
+	.footer-terms ul li:last-child{
+		border: none;
+	}
+
+	.footer-terms ul li{
+		border: none;
+		display: block;
+		width: 100%;
+		margin-bottom: 15px; 
+		padding: 0px;
+		text-align: center;
+	}
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.footer-menu ul li{
+		margin-right: 0;
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	.team-photos{
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	.team-single-photo-block{
+		margin-bottom: 15px;
+	}
+
+	.mission .title{
+		padding-top: 80px;
+	}
+
+	.mission .title h2{
+		font-size: 26px
+	}
+
+	.mission .title p{
+		font-size: 15px;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
 }
 
 @font-face {

@@ -68,4 +68,15 @@ function initMap() {
 	    })(marker));
 		markers.push(marker);
     });
-} 
+};
+
+$(document).ready(function(){
+	$('.logo span').click(function(){
+		console.log($('.menu').css('display'));
+		if($('.menu').css('display') == 'none'){
+			$('.menu').css('display', 'block');
+		} else {
+			$('.menu').css('display', 'none');
+		}
+	});
+});
